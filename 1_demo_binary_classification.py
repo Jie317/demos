@@ -27,14 +27,13 @@ test_y = test.values[:, -1:]
 # 2 build model
 # ================================================================================= #2
 
-inp = Input(shape=(10, ))
+model = Sequential()
 
-out = Dense(64, activation='relu')(inp)
-out = Dense(64, activation='relu')(out)
-out = Dense(1, activation='sigmoid')(out)
-
-model = Model(inp, out)
-
+model.add(Dense(64, activation='relu')
+model.add(Dense(64, activation='relu')
+model.add(Dense(1, activation='sigmoid')
+          
+          
 # ================================================================================= #
 # 3 compile and train model
 # ================================================================================= #3
