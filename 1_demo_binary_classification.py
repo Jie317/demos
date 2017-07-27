@@ -29,9 +29,9 @@ test_y = test.values[:, -1:]
 
 model = Sequential()
 
-model.add(Dense(64, activation='relu')
-model.add(Dense(64, activation='relu')
-model.add(Dense(1, activation='sigmoid')
+model.add(Dense(64, activation='relu'))
+model.add(Dense(64, activation='relu'))
+model.add(Dense(1, activation='sigmoid'))
           
           
 # ================================================================================= #
